@@ -14,3 +14,4 @@ with open('input/day1.txt', 'r') as reader:
 elf_sum_list.append(sum_elf)
 
 print(max(elf_sum_list))
+print(f"top 3 sum: {sum(sorted(elf_sum_list, reverse = True)[:3])}")
